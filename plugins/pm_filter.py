@@ -1958,7 +1958,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                                                     
             )
             await query.message.reply_text(
-                text="𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !\n\n📕Nᴀᴍᴇ ➠ : {fileName} \n\n📥 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱: {stream} \n\n👀𝗪𝗮𝘁𝗰𝗵: {stream} \n\n🚸 Nᴏᴛᴇ : LINK WON'T EXPIRE\nTILL I DELETE",
+                text=f"𝗬𝗼𝘂𝗿 𝗟𝗶𝗻𝗸 𝗚𝗲𝗻𝗲𝗿𝗮𝘁𝗲𝗱 !\n\n📕Nᴀᴍᴇ ➠ : {fileName} \n\n📥 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱: {stream} \n\n👀𝗪𝗮𝘁𝗰𝗵: {stream} \n\n🚸 Nᴏᴛᴇ : LINK WON'T EXPIRE\nTILL I DELETE",
                 quote=True,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🥰 𝗪𝗮𝘁𝗰𝗵 ᵒʳ 𝗗𝗼𝘄𝗻𝗹𝗼𝗮𝗱 𝐍𝐨𝐰 🔰", url=stream)  # we download Link
